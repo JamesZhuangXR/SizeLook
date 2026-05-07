@@ -46,3 +46,8 @@ if __name__ == '__main__':
     for file, size in file_list:
         csize = convert_size(size)
         print(f'{file}\t{csize}')
+
+    print("END")
+
+    # Edit 1
+    # Edit 2
