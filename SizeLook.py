@@ -45,3 +45,5 @@ if __name__ == '__main__':
     #print(f"the largest folder or file in C drive is: {largest_item}, the size is {max_size}")
     for file, size in file_list:
         print(f'{file}\t{size}')
+
+    print("END")
