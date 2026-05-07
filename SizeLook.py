@@ -44,6 +44,6 @@ if __name__ == '__main__':
     file_list = sorted(file_list, key = lambda x:x[1], reverse = True)
     #print(f"the largest folder or file in C drive is: {largest_item}, the size is {max_size}")
     for file, size in file_list:
-        print(f'{file}\t{size}')
+        print(f'{file}\t{size} Bytes')
 
     print("END")
